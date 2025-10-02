@@ -30,6 +30,11 @@ Use scikit-learn to build a classifier that predicts drug-likeness from descript
 
 Deliverable: GitHub repo + LinkedIn post demonstrating "Predicting Drug-Likeness Using Machine Learning".
 
+
+
+
+
+
 Month 2: Data Pipelines & FAIR Data Practice
 
 Goal: Show capability in data wrangling and compliance principles used in Pharma R&D.
@@ -48,6 +53,11 @@ Apply FAIR principles: metadata tagging, version control, reproducibility.
 
 Deliverable: "FAIR-compliant Data Pipeline for Assay Results" with README describing pharmaceutical application.
 
+
+
+
+
+
 Month 3: AI Model Application to Biology
 
 Goal: Move from coding exercises to biology-aligned AI projects.
@@ -65,6 +75,10 @@ Fine-tune a pretrained transformer (e.g., BioBERT) on protein sequence classific
 Build a simple Graph Neural Network (PyTorch Geometric) for molecule property prediction.
 
 Deliverable: Case study “Applying Transformers & GNNs to Drug Discovery Tasks” (GitHub + Medium-style writeup).
+
+
+
+
 
 Month 4: Cross-Functional Project Simulation
 
@@ -88,6 +102,11 @@ Phase 3: Write project plan with risks/dependencies.
 
 Deliverable: PDF report + visual roadmap in Smartsheet (share on portfolio site).
 
+
+
+
+
+
 Month 5: Showcase AI/ML Deployment + Collaboration
 
 Goal: Prove ability to bring AI into usable form for research teams.
@@ -105,6 +124,11 @@ Deploy a web app where users upload a molecule (SMILES) and receive predicted so
 Deliverable: Live demo (Heroku/Streamlit) + GitHub repo.
 
 Resume bullet: “Developed and deployed a ML-powered web tool predicting solubility from SMILES input, integrating cheminformatics and web APIs for research usability.”
+
+
+
+
+
 
 Month 6: Capstone + Thought Leadership
 
@@ -133,6 +157,10 @@ Full portfolio (GitHub + PDF dossier).
 Polished resume with new bullets under ‘Projects & Technical Contributions’.
 
 Example bullet: “Built end-to-end FAIR-compliant pipeline integrating assay data and ML models, deployed as interactive tool predicting peptide–protein binding, demonstrating translational AI applications to drug discovery.”
+
+
+
+
 
 🔑 Key Gaps You’ll Close
 
