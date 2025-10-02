@@ -1,0 +1,129 @@
+📅 Month 3 – AI Model Application to Biology
+🎯 Goals
+
+Gain fluency with transformers (BioBERT, ProtBERT) and graph neural networks (GNNs).
+
+Apply models to real biological data (protein sequences, molecular properties).
+
+Deliver 2 resume-ready projects that show competence in AI for drug discovery.
+
+Step 1: Learn Bio-Transformers (Week 1)
+
+Concepts to learn:
+
+How pretrained transformers (BERT, GPT) are adapted to biology (BioBERT, ProtBERT).
+
+Fine-tuning vs feature extraction.
+
+Resources:
+
+Hugging Face course (free) → sections on transformers.
+
+Read “BioBERT: a pre-trained biomedical language representation model” (Lee et al., 2020).
+
+Setup:
+
+Install Hugging Face (transformers, datasets).
+
+Download ProtBERT model (trained on protein sequences).
+
+👉 Mini-exercise: Run ProtBERT on a few protein sequences (e.g., FASTA format) to get embeddings. Plot them in 2D with PCA just to visualize clustering.
+
+Step 2: Project A – Protein Sequence Classification (Week 2)
+
+Objective: Fine-tune BioBERT/ProtBERT to classify sequences as “binding vs non-binding” peptides.
+
+Dataset:
+
+Use BindingDB (public dataset of protein-ligand interactions).
+
+Choose subset of peptides/proteins with labeled binding affinities.
+
+Steps:
+
+Tokenize protein sequences.
+
+Fine-tune ProtBERT with binary classification head.
+
+Evaluate with ROC-AUC, F1 score.
+
+Visualize embeddings of binding vs non-binding proteins.
+
+Stretch goal: Create a confusion matrix and interpret false positives/negatives in biological terms.
+
+Deliverable:
+
+GitHub repo: “Protein Sequence Binding Classifier with Transformers.”
+
+Resume bullet:
+
+“Fine-tuned ProtBERT model on BindingDB dataset to classify peptide binding interactions with 85% accuracy, demonstrating application of transformers in translational biology.”
+
+Step 3: Learn Graph Neural Networks (Week 3)
+
+Concepts to learn:
+
+Molecules as graphs (atoms = nodes, bonds = edges).
+
+GNN basics: message passing, graph embeddings.
+
+Resources:
+
+PyTorch Geometric tutorials.
+
+RDKit for molecule-to-graph conversion.
+
+Setup:
+
+Install PyTorch Geometric.
+
+Practice converting SMILES → molecular graph → visualize adjacency.
+
+👉 Mini-exercise: Build and plot the graph of aspirin (C9H8O4).
+
+Step 4: Project B – Molecular Property Prediction with GNN (Week 4)
+
+Objective: Predict solubility or activity from molecular graph input.
+
+Dataset:
+
+QM9 dataset (molecular properties).
+
+Or ESOL (aqueous solubility dataset).
+
+Steps:
+
+Convert molecules to graphs using RDKit.
+
+Train a GNN (e.g., GraphConvNetwork) to predict solubility.
+
+Evaluate with R², MAE.
+
+Compare GNN performance to Random Forest baseline.
+
+Deliverable:
+
+GitHub repo: “Graph Neural Networks for Molecular Property Prediction.”
+
+Resume bullet:
+
+“Developed Graph Neural Network (PyTorch Geometric) to predict molecular solubility from graph-based representations, outperforming traditional descriptor-based models (R² = 0.72).”
+
+Step 5: Packaging & Visibility
+
+Publish both projects with clear READMEs.
+
+Post on LinkedIn:
+
+“Excited to share two new projects applying AI to biology:
+1️⃣ Fine-tuned ProtBERT to classify peptide–protein binding.
+2️⃣ Built a GNN to predict molecular solubility.
+These projects combine cheminformatics, deep learning, and biological insight — the same tools advancing AI-driven drug discovery today.”
+
+🔑 Why Month 3 Matters
+
+You’ll now have 2 high-value, biology-focused AI projects in your portfolio.
+
+These directly map to Genentech’s Translational AI Lab (TRAIL) requirements.
+
+You’re proving you can take cutting-edge models (transformers, GNNs) and apply them to drug discovery problems.

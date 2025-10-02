@@ -1,0 +1,108 @@
+📅 Month 5 – Showcase AI/ML Deployment + Collaboration
+🎯 Goals
+
+Learn to deploy ML models as services or apps.
+
+Demonstrate ability to make tools accessible to scientists with no coding background.
+
+Deliver a deployed web app + documentation that simulates a real discovery tool.
+
+Step 1: Learn Deployment Tools (Week 1)
+
+Concepts: containerization, serving ML models, simple web UIs.
+
+Stack to focus on:
+
+FastAPI (serve model predictions via API).
+
+Streamlit (build quick web dashboards).
+
+Docker (optional, containerization for reproducibility).
+
+Resources:
+
+Streamlit official docs (very beginner-friendly).
+
+FastAPI tutorials (“Machine Learning Model Deployment”).
+
+Heroku or Hugging Face Spaces (for free hosting).
+
+👉 Mini-exercise: Deploy a “Hello World” ML model — e.g., predict iris flower type with a Streamlit app.
+
+Step 2: Choose the Project Theme (Week 2)
+
+Use one of your Month 1–3 models as the engine behind a simple app. Options:
+
+SMILES Input → Predicted Solubility (GNN model from Month 3).
+
+Protein Sequence Input → Binding Probability (ProtBERT classifier from Month 3).
+
+Molecule Input → Drug-Likeness Probability (Month 1 model).
+
+👉 Best pick = SMILES Input → Solubility Prediction, because it’s visually intuitive and accessible for demos.
+
+Step 3: Build the Web App (Week 3)
+
+Features to include:
+
+User inputs a molecule (SMILES string).
+
+Backend converts to features (RDKit descriptors or graph).
+
+ML model generates prediction (solubility or binding score).
+
+UI displays results in clean format: prediction, confidence, molecule visualization.
+
+Stretch goals:
+
+Allow batch uploads (CSV of molecules).
+
+Add molecular visualization in app (RDKit → PNG).
+
+👉 Example flow:
+User inputs → Model predicts → Result shown in dashboard with visualization.
+
+Step 4: Deploy & Document (Week 4)
+
+Deploy:
+
+Streamlit Cloud, Hugging Face Spaces, or Heroku.
+
+Share live link in GitHub README.
+
+Document:
+
+README: installation, usage, screenshots.
+
+Include FAIR principles: dataset provenance, model version.
+
+Collaboration Simulation:
+
+Write a “User Guide” as if a biologist or chemist were going to use this tool in R&D.
+
+Deliverables:
+
+Live web app (accessible via link).
+
+GitHub repo: drug-solubility-app/.
+
+PDF “User Guide for Scientists” (2–3 pages).
+
+Resume-Ready Bullets
+
+“Developed and deployed ML-powered web application predicting compound solubility from SMILES input, enabling accessible use of AI models by non-technical scientific teams.”
+
+“Integrated RDKit molecular visualization and FAIR-compliant metadata into deployed research app, demonstrating reproducibility and translational usability.”
+
+LinkedIn Post Example
+
+“Excited to share a new project — I deployed a machine learning web app for predicting solubility directly from SMILES strings. The app combines RDKit cheminformatics, a trained GNN model, and a Streamlit front-end.
+This project demonstrates how we can make AI tools accessible to bench scientists and integrate them into discovery workflows.”
+
+🔑 Why Month 5 Matters
+
+You prove you can go beyond coding notebooks and build tools people can use.
+
+Deployment + documentation = scientist-to-scientist collaboration (critical in Genentech roles).
+
+Gives you one of the strongest resume bullets possible: “deployed ML model into production-like environment.”

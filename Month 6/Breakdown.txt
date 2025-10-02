@@ -1,0 +1,116 @@
+📅 Month 6 – Capstone + Thought Leadership
+🎯 Goals
+
+Deliver an integrated project applying AI to a biologically meaningful question.
+
+Package your work into a professional portfolio + report.
+
+Establish thought leadership and visibility in AI-enabled drug discovery.
+
+Step 1: Define the Capstone Problem (Week 1)
+
+Pick a problem that connects proteins + small molecules (cross-domain integration is attractive for Genentech):
+
+“AI-Driven Target Identification Simulation”
+
+Example framing: “Can we predict whether a given small molecule will interact with a protein target using integrated ML approaches?”
+
+Data sources:
+
+BindingDB → protein-ligand activity data.
+
+ChEMBL → molecular bioactivity datasets.
+
+UniProt → protein sequence info.
+
+👉 Mini-exercise: Draft a 1-page project proposal (problem, dataset, methods, outcomes).
+
+Step 2: Build the Pipeline (Week 2)
+
+Integrate prior months’ skills into one end-to-end workflow:
+
+Data ingestion: Curate ligand + protein pairs (apply FAIR metadata).
+
+Feature extraction:
+
+Protein sequences → ProtBERT embeddings.
+
+Molecules → graph embeddings (RDKit + GNN).
+
+Model: Concatenate embeddings → train classifier predicting binding likelihood.
+
+Validation: ROC-AUC, precision-recall curves.
+
+👉 Stretch goal: Compare GNN vs descriptor-only models.
+
+Step 3: Deploy & Document (Week 3)
+
+Deliverables:
+
+GitHub repo: all code, Jupyter notebooks, dataset preprocessing scripts.
+
+Streamlit app: user inputs a protein sequence + SMILES → app predicts interaction likelihood.
+
+Metadata: document FAIR compliance (dataset versioning, provenance).
+
+Documentation:
+
+README: problem statement, methodology, results.
+
+3–5 page PDF “Technical Report.”
+
+“User Guide” for scientists.
+
+👉 Mini-exercise: Add diagrams (system architecture, workflow flowchart).
+
+Step 4: Portfolio Packaging (Week 4)
+
+Compile your projects into a professional portfolio:
+
+GitHub “Pinned Repositories” = 4–5 projects (drug-likeness, FAIR pipeline, ProtBERT, GNN, Capstone).
+
+Create a Portfolio PDF (2–3 pages): screenshot + short description for each project.
+
+Upload to LinkedIn as “Featured Project.”
+
+Visibility:
+
+Write a LinkedIn post:
+
+“Over the past 6 months, I’ve built an AI-for-Drug-Discovery portfolio — from cheminformatics to FAIR pipelines to deployed models. My capstone integrates protein + molecule embeddings to predict binding interactions, simulating an end-to-end discovery workflow. Thrilled to share my journey toward translational AI in drug discovery.”
+
+Optional: Publish a blog/Medium post: “Building an AI-Driven Target Identification Tool in 6 Months: A Scientist’s Journey.”
+
+Step 5: Thought Leadership & Networking
+
+Attend at least 2 webinars in computational biology/AI (e.g., Roche’s open seminars, ISMB conference recordings).
+
+Start commenting/posting weekly on LinkedIn in AI-bio spaces.
+
+Reach out to Genentech/Roche scientists on LinkedIn with a short message:
+
+“Hi [Name], I’ve been building an AI-for-Drug-Discovery portfolio (FAIR pipelines, GNNs, protein-ligand classifiers) and would love to connect with others applying AI in translational biology.”
+
+Deliverables at the End of Month 6
+
+✅ GitHub repo with capstone project (protein-ligand prediction pipeline).
+✅ Live Streamlit app demo.
+✅ PDF dossier (project report + user guide).
+✅ Portfolio PDF (highlighting all 6 months of projects).
+✅ Thought-leadership presence (LinkedIn posts, blog, networking).
+
+Resume Bullets (Capstone Level)
+
+“Built an end-to-end AI pipeline integrating ProtBERT embeddings of protein sequences and graph neural networks of small molecules to predict ligand–target interactions (ROC-AUC 0.81), simulating a translational drug discovery workflow.”
+
+“Deployed predictive model as interactive Streamlit app with FAIR-compliant dataset management, enabling accessibility for cross-functional research teams.”
+
+“Packaged AI-for-Drug-Discovery portfolio including cheminformatics, FAIR pipelines, and deep learning applications for translational biology.”
+
+🔑 Why Month 6 Matters
+
+You’re no longer just “a chemist who learned Python.” You’re now someone who can lead and deliver translational AI projects.
+
+This capstone bridges wet lab + computational — exactly what Genentech Scientist roles demand.
+
+Your portfolio demonstrates sustained growth + leadership in 6 months, making your career pivot believable.

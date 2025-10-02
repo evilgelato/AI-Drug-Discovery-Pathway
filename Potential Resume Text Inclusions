@@ -1,0 +1,85 @@
+Jonathon Jollota
+
+📧 jonathonjollota@gmail.com
+ | 📱 (818) 256-6279 | 🌐 linkedin.com/in/jonathonjollota | GitHub: [YourPortfolioLink]
+
+Professional Summary
+
+Scientist with 7.5+ years of pharmaceutical and diagnostics formulation experience, advancing from Chemist I to Chemist III at Bio-Rad. Skilled in end-to-end process development, change control, SAP/LIMS data systems, and GMP compliance. Recently completed a portfolio of AI-enabled drug discovery projects integrating cheminformatics, FAIR data pipelines, and machine learning models. Adept at cross-functional collaboration, project management, and applying computational methods to biologically meaningful problems. Passionate about leveraging AI to accelerate target identification, biomarker discovery, and translational R&D.
+
+Key Technical Skills
+
+Drug Discovery Informatics: FAIR data principles, cheminformatics (RDKit, OpenEye, ChEMBL), assay data lifecycle
+
+AI/ML: Python, PyTorch, TensorFlow, Hugging Face, Scikit-learn, Graph Neural Networks, LLM fine-tuning (BioBERT)
+
+Data Engineering: SQL, ETL pipeline design, FastAPI/Flask, Docker, Streamlit deployment
+
+Project Tools: Smartsheet, JIRA, Confluence, GitHub, Google Suite
+
+Scientific Expertise: Diagnostic reagent formulation, protein–ligand interactions, biochemical assay data, GMP
+
+Experience
+
+Bio-Rad Laboratories — Chemist III
+2019 – Present
+
+Lead formulation of 50+ high-complexity diagnostic products, improving yield by 12% and ensuring ISO 13485/GMP compliance.
+
+Designed and executed cross-functional CAPA investigations, driving sustainable corrective actions and risk mitigation.
+
+Trained and mentored junior chemists in SAP ERP, LabWare LIMS, and process control, improving data integrity across the department.
+
+Spearheaded change control packages for process optimization and product lifecycle management.
+
+Key Achievements:
+
+Received Spotlight Award for process optimization (established critical parameters reducing cycle time by 18%).
+
+Selected to train cross-site teams on GMP documentation and production workflows.
+
+AI & Data Science Projects (Portfolio)
+
+AI-Driven Drug-Likeness Predictor (Month 1): Built Python/Scikit-learn model predicting compound drug-likeness from ChEMBL dataset using molecular descriptors (LogP, TPSA, MW).
+
+FAIR Data Pipeline for Assay Results (Month 2): Created SQLite + FastAPI pipeline to ingest assay results with FAIR-compliant metadata and reproducibility features.
+
+Protein Sequence Classification with Transformers (Month 3): Fine-tuned BioBERT model to classify binding vs non-binding peptides, achieving >85% validation accuracy.
+
+Graph Neural Network for Molecular Properties (Month 3): Implemented GNN with PyTorch Geometric to predict solubility and reactivity of small molecules.
+
+Interactive Drug Discovery Web App (Month 5): Deployed Streamlit app where users input SMILES strings and receive ML-based solubility predictions.
+
+Capstone Project – AI-Driven Target Identification (Month 6): Integrated protein sequence and compound data to train ML models predicting interaction likelihood; documented roadmap with risks, dependencies, and FAIR compliance.
+
+Education
+
+M.S. (In Progress) – Engineering Management, University of Colorado Boulder
+
+B.S. – Biochemistry, California State University, Northridge
+
+Professional Development
+
+AI for Medicine Specialization (Coursera/DeepLearning.AI)
+
+FAIR Data Principles for Pharma R&D (ELIXIR, Roche open resources)
+
+Hugging Face Transformers in Biomedical Applications
+
+Continuous improvement and Lean Six Sigma certifications (internal Bio-Rad training)
+
+Leadership & Cross-Functional Collaboration
+
+Developed and maintained roadmaps aligning R&D and manufacturing priorities.
+
+Coordinated stakeholder input across Quality, R&D, and Manufacturing for new product lines.
+
+Recognized for translating scientific needs into computational solutions and influencing without authority.
+
+🔑 This structure shows:
+
+Deep industry credibility (Bio-Rad work, promotions, awards).
+
+New AI/ML & data projects aligned to Genentech’s Scientist roles.
+
+Cross-functional leadership and FAIR data awareness (exact keywords from job postings).

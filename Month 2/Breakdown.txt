@@ -1,0 +1,97 @@
+📅 Month 2 – Data Pipelines & FAIR Data Practice
+🎯 Goals
+
+Learn basics of data pipelines and engineering (ETL: extract, transform, load).
+
+Apply FAIR principles (Findable, Accessible, Interoperable, Reusable).
+
+Build a pipeline project simulating what’s used in pharma R&D to manage assay data.
+
+Step 1: Learn FAIR & Data Lifecycle Basics (Week 1)
+
+Read/Watch:
+
+ELIXIR FAIR Data webinars (introductory sessions are free on YouTube).
+
+Roche & Novartis whitepapers on FAIR in pharma (FAIRplus project).
+
+Quick summary of FAIR:
+
+Findable: Metadata, unique IDs.
+
+Accessible: APIs, documented formats.
+
+Interoperable: Common standards (CSV, JSON).
+
+Reusable: Clear provenance, licenses, reproducibility.
+
+👉 Small exercise: Write a one-page note on how your current lab processes (SAP/LIMS) already embody or violate FAIR.
+
+Step 2: Data Engineering Foundations (Week 2)
+
+Learn how assay/lab datasets are typically managed:
+
+Use Pandas to clean messy Excel/CSV data (missing values, duplicates).
+
+Practice loading data into SQLite (simple relational database).
+
+Write SQL queries to summarize results (e.g., mean assay signal per compound).
+
+Tools to set up:
+
+sqlite3, sqlalchemy, pandas, fastapi.
+
+👉 Small exercise: Take any experimental dataset (Excel from Kaggle if needed), load it into SQLite, and run queries for basic stats.
+
+Step 3: Pipeline Project – FAIR-Compliant Assay Data Manager (Weeks 3–4)
+
+Objective: Simulate what a pharma informatics team does with assay results.
+
+Steps:
+
+Extract: Load assay data (CSV/Excel).
+
+Transform: Clean, normalize column names, add metadata (date, analyst, assay type).
+
+Load: Store results in SQLite.
+
+Access: Build a simple API using FastAPI so a user can query assay results (e.g., compound ID → return values).
+
+FAIR Compliance:
+
+Assign UUIDs to datasets.
+
+Add metadata.json (date, creator, version).
+
+Document reproducibility steps.
+
+Stretch goal: Add a small dashboard (Streamlit) to visualize assay results by compound.
+
+Step 4: Packaging & Resume-Ready Deliverable
+
+GitHub repo with:
+
+README.md explaining pipeline and FAIR principles.
+
+Jupyter notebook with ETL steps.
+
+SQLite database + FastAPI script.
+
+Metadata JSON file (example of FAIR).
+
+Resume bullet example:
+
+“Built a FAIR-compliant assay data pipeline integrating CSV ingestion, data cleaning, SQLite storage, and FastAPI query endpoints, demonstrating reproducible R&D data management practices.”
+
+LinkedIn post idea:
+
+“In drug discovery, data integrity is everything. I built a FAIR-compliant pipeline for assay data — integrating ETL, metadata, and APIs — to simulate how R&D teams ensure findable, accessible, interoperable, and reusable datasets.”
+
+🔑 Why Month 2 Matters
+
+FAIR expertise is now a requirement at Genentech/Roche.
+
+This project shows you can do more than “analysis” — you can design reproducible data systems.
+
+Demonstrates cross-functionality: chemist + data engineer hybrid skillset.
+

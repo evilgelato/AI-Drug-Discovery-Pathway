@@ -1,0 +1,108 @@
+📅 Month 4 – Cross-Functional Project Simulation
+🎯 Goals
+
+Demonstrate project management skills (roadmaps, risks, dependencies).
+
+Simulate leading a cross-functional R&D project.
+
+Deliver a structured plan + roadmap you can share in interviews/portfolio.
+
+Step 1: Learn Project Tools & Approaches (Week 1)
+
+Familiarize with tools used in pharma informatics:
+
+Smartsheet (roadmapping, dependencies).
+
+JIRA (tasks, sprints).
+
+Confluence (documentation).
+
+Training Resources:
+
+Smartsheet’s free project management tutorials.
+
+Atlassian University’s “Agile with JIRA” mini-course.
+
+Read up on Roche’s DDC (Data & Digital Catalysts) structure → they emphasize “domains, product families, interdependencies.”
+
+👉 Mini-exercise: Build a 1-page “R&D project lifecycle” template in Smartsheet or Excel with phases (Discovery → Preclinical → Clinical).
+
+Step 2: Define a Mock Project (Week 2)
+
+Choose a project theme relevant to Genentech roles, e.g.:
+
+“From Assay Data to ML-Based Target Prediction.”
+
+Define deliverables for each phase:
+
+Data Collection: Curate assay/omics dataset.
+
+Data Engineering: Build FAIR pipeline (from Month 2).
+
+Model Development: Apply ML model (Month 3 projects).
+
+Deployment: Expose results via web app (Month 5 preview).
+
+Define stakeholders: wet-lab scientists, computational biologists, data engineers, leadership.
+
+👉 Mini-exercise: Write a 1-page project charter (objectives, scope, key stakeholders, timeline).
+
+Step 3: Build the Roadmap & Risk Register (Week 3)
+
+Use Smartsheet or Gantt chart tool to map:
+
+Tasks, dependencies, and milestones.
+
+Example dependencies: assay dataset availability → data pipeline setup → ML model training → deployment.
+
+Create a risk register with:
+
+Risks (e.g., “dataset quality too low,” “model underperforms”).
+
+Mitigation strategies.
+
+Map interdependencies like Roche’s DDC structure (cross-family alignment).
+
+👉 Mini-exercise: Create a visual roadmap with milestones: Data → ML → Validation → Deployment.
+
+Step 4: Write the Project Simulation Report (Week 4)
+
+3–5 page PDF report summarizing:
+
+Objective & Scope.
+
+Roadmap (with diagram).
+
+Dependencies & Risks.
+
+Expected Deliverables.
+
+Stakeholder Communication Plan.
+
+Format it as if you were presenting to Genentech R&D leadership.
+
+Add visuals: timeline chart, stakeholder map, risk matrix.
+
+Deliverables:
+
+Roadmap (Smartsheet, Excel, or PowerPoint timeline).
+
+PDF Report: “Cross-Functional AI-Driven Drug Discovery Project Plan.”
+
+Resume-Ready Bullet Points
+
+“Developed cross-functional roadmap for AI-driven target identification project, aligning assay data engineering, ML model development, and deployment milestones.”
+
+“Built risk register and dependency map simulating R&D project management, demonstrating ability to manage ambiguity and coordinate across technical/scientific stakeholders.”
+
+LinkedIn Post Example
+
+“In addition to building AI/ML models for drug discovery, I’ve been simulating what it means to lead cross-functional projects. I created a roadmap for an end-to-end R&D project — from assay data ingestion to ML-driven target identification — with milestones, risks, and stakeholder alignment. This mirrors the kind of structured planning needed at Genentech and Roche in Data & Digital Catalysts domains.”
+
+🔑 Why Month 4 Matters
+
+Shows leadership + systems thinking, not just technical skill.
+
+Prepares you for interview questions about project ambiguity, dependencies, and stakeholder alignment.
+
+Adds a deliverable (PDF + roadmap) that looks like real work product from a scientist/PM hybrid role.
