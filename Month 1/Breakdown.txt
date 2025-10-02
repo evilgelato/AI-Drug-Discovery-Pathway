@@ -133,6 +133,8 @@ Labels: Binary activity labels (active/inactive) and continuous pIC50 values for
 Drug-likeness: Molecules filtered to obey Lipinski's Rule of Five, ensuring a focus on drug-like chemical space.
 High Confidence: Entries are selected based on high confidence scores from manually curated assays. 
 
+END DATASET STEPS
+
 
 Step 2: Cheminformatics Foundations (Week 2)
 
