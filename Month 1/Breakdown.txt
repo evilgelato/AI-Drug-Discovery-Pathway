@@ -1,0 +1,91 @@
+📅 Month 1 – Foundations in AI for Drug Discovery
+🎯 Goals
+
+
+
+
+Build core competency in AI/ML as applied to biology & chemistry.
+
+Get comfortable with cheminformatics tools like RDKit.
+
+Complete one project that demonstrates value in a drug discovery context.
+
+Step 1: Learn the Basics (Week 1)
+
+AI for Medicine Specialization (Coursera, DeepLearning.AI) → pick the first course only: AI for Medical Diagnosis. (~10 hrs).
+
+You’ll learn about data preprocessing, model evaluation, and interpretability in a medical context.
+
+Install Tools:
+
+Python (Anaconda recommended).
+
+Jupyter Notebooks.
+
+Packages: rdkit, pandas, scikit-learn, matplotlib.
+
+Dataset: download a ChEMBL subset (e.g., 5,000–10,000 molecules with drug-likeness/activity labels).
+
+
+
+
+
+
+
+Step 2: Cheminformatics Foundations (Week 2)
+
+Learn how to handle chemical data:
+
+SMILES strings → how molecules are encoded as text.
+
+Calculate descriptors: LogP, TPSA, molecular weight, number of H-bond donors/acceptors.
+
+Visualize a few molecules from SMILES in RDKit.
+
+👉 Small exercise: Take 10 random molecules, calculate descriptors, and make a scatter plot (MW vs LogP).
+
+
+
+
+
+tep 3: First AI Project – Predicting Drug-Likeness (Weeks 3–4)
+
+Objective: Train a simple ML model that predicts whether a molecule is “drug-like.”
+
+Steps:
+
+Load dataset (SMILES + drug-likeness labels).
+
+Use RDKit to compute descriptors (LogP, TPSA, MW, #rotatable bonds).
+
+Train a classifier (Random Forest or Logistic Regression).
+
+Evaluate performance with ROC-AUC and confusion matrix.
+
+Document clearly: problem → dataset → features → model → results.
+
+Stretch goal: Visualize “drug-like” vs “non-drug-like” molecules on a 2D PCA plot.
+
+
+
+
+
+Step 4: Packaging & Resume-Ready Deliverable
+
+Put the notebook on GitHub with:
+
+README (explain drug-likeness concept, project steps, and results).
+
+Requirements.txt.
+
+Write a short LinkedIn post:
+
+“I’ve just completed my first cheminformatics + AI project: predicting drug-likeness using molecular descriptors from ChEMBL and a machine learning classifier. Excited to keep bridging chemistry and AI for drug discovery 🚀”
+
+🔑 Why this is the Best Start Point
+
+Low barrier, high visibility: You’ll get hands-on coding without requiring a PhD in ML.
+
+Directly relevant: Shows you can apply AI to real biological/chemical problems.
+
+Deliverable-focused: One GitHub project = one concrete resume bullet.

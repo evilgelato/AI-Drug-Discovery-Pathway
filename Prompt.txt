@@ -1,0 +1,153 @@
+I want you to take on the role of a career planner and development expert that will see weaknesses or gaps and try to fill them with experience/work outside of academia. I have 7.5 years of experience as a formulation/production chemist in pharmaceuticals and medical testing controls. This includes the entire change control package, SAP, and LIMS systems experience and have moved from a level 1 Chemist to a level 3 Chemist at Bio-Rad Laboratories. I also have a minor amount of Python/SQL coding exposure that accounts for 5% of my workweek. I am looking to get a job at a cutting edge company such as Genentech that develops cutting edge medications/peptides/drugs. My specific target is a Scientist role, but they all include leveraging advanced AI predictive models to assist in the discovery process.
+
+I want a 6month plan that will improve my resume and add most of the missing material with example-based projects to showcase competence. 
+
+Some examples of the listing/requirements are pasted: "You will make pivotal contributions to the future of the Data and Digital Catalysts, CoE, and Research and Early Development by:
+
+Guiding teams to apply fit-for-purpose project and program management approaches tailored to the complexity of each initiative in close collaboration with product family leads and Domain Head
+
+Consistently drive toward Domain goals while balancing ambiguity, shifting priorities, and cross-functional complexity within the Technical Innovation Domain and across DDC Domains
+
+Developing and maintaining cross-product family roadmaps in alignment with Domain priorities and its north star
+
+Proactively identifying risks and integration points and managing interdependencies across product families and technical platforms and initiatives to ensure continuity of execution 
+
+Serving as a trusted thought partner to the Domain Head to manage a vast network of scientific and technical stakeholders across functions and geographies
+
+Facilitating alignment and buy-in for multiple stakeholder groups within gRED and across pRED
+
+Tracking key milestones, dependencies, and resources across product families and coordinating holistically across all Domains in DDC
+
+Communicating progress and risks to the Domain team and transparently to leadership and stakeholders as needed
+
+Enabling the Domain Team to deliver meaningful outcomes and accelerate impact in a R&D setting
+
+Leading by example to establish and demonstrate the culture and working environment of this new organization aligned with our values. 
+
+Who you are
+
+Bachelors Degree in a scientific or technical field; MBA or PhD is an advantage
+
+7+ years of experience with informatics initiatives in Pharma, with R&D process understanding; specifically in the pre-clinical drug discovery setting 
+
+Demonstrated success managing complex informatics or software development projects within scientific or technical domains
+
+High level of business savvy, flexibility and ability to understand rapidly shifting stakeholder and technical landscape
+
+Strong systems thinking and the ability to connect technical solutions in a holistic view
+
+Pragmatic and adaptable, able to lead through ambiguity and influence without authority
+
+Demonstrates high emotional intelligence and inclusive collaboration skills
+
+Recognized for bringing structure and momentum to complex, cross-functional initiatives
+
+Operates with transparency, curiosity, and a continuous improvement mindset
+
+Experience in stakeholder management, change enablement, and fostering cross-functional collaboration
+
+Familiarity with scientific data lifecycles, FAIR data principles, and modern informatics platforms
+
+Proficiency in tools such as Smartsheet, JIRA, Confluence, and Google Suite
+
+Comfort engaging with both technical and scientific content and stakeholders
+
+Thrives in ambiguity, identifying opportunities, fostering a growth mindset, and effectively communicating and influencing in complex environments" 
+"The Translational AI Lab (TRAIL) is a division within the newly formed AI Biology & Translation (AIBT) department in gRED’s Computational Sciences Center of Excellence (CS-CoE). TRAIL’s mission is to harness the power of AI to unlock new biological insights by translating foundational models into applied impact—driving discovery in target identification, disease understanding, and therapeutic exploration. As a Senior/Principal Scientist, you will lead scientific initiatives that bridge cutting-edge AI capabilities and real-world biological applications. This role is ideal for a scientist with a record of scientific excellence, cross-disciplinary fluency, and deep translational curiosity.
+
+You’ll work in close partnership with:
+
+BRAID (Biology Research AI Development), our internal AI model development team,
+
+Computational Biology & Medicine (CBM) and therapeutic area scientists,
+
+Experimental and data-generating partners across Genentech R&D (i.e. Research, Translational Medicine, Cellular & Tissue Genomics etc).
+
+Key Responsibilities
+
+Lead high-impact projects that apply and adapt AI models to translational challenges in disease biology, biomarker discovery, and target exploration.
+
+Frame biological problems in computational terms and design solutions that are biologically meaningful, interpretable, and experimentally testable.
+
+Collaborate with BRAID to guide model application, validation, and refinement.
+
+Partner with experimental and clinical teams to ensure scientific questions are addressed with computational rigor and domain awareness.
+
+Act as a recognized scientific thought leader and strategic contributor to decisions that shape the direction of Genentech’s discovery and translational pipeline.
+
+Mentor junior and senior scientists across AIBT and partner organizations.
+
+Represent TRAIL and AIBT in cross-functional efforts, governance forums, and external collaborations.
+ 
+
+Who you are
+
+Senior Scientist
+
+PhD (or equivalent) in a quantitative discipline (e.g., Computational Biology, Computer Science, Machine Learning, Mathematics, Statistics, Physics) or in a biological field (e.g., Oncology, Immunology, Molecular Biology) with demonstrated computational fluency.
+
+Minimum of 2 years of post-PhD experience in drug discovery, translational biology, or related computational science fields.
+
+Consistent and sustained record of scientific excellence in high-impact publications
+
+Thought leadership in a relevant scientific domain
+
+Proven ability to lead and influence cross-functional projects.
+
+Recognized as a domain expert and innovator, capable of shaping scientific direction and organizational strategy."
+"Participate in cutting-edge research and development in LLMs for various, cutting-edge internal applications, including drug discovery/development and biomedical problems. ● Develop LLMs, including data engineering, pretraining, finetuning, post-training, and evaluation as well as deploy models in production environments, working closely with other engineers to ensure scalability and reliability 
+
+Solve core ML and engineering challenges including the design, implementation, and scaling of our data, training, and deployment pipeline 
+
+Collaborate closely with cross-functional teams across both Prescient Design and gRED to solve complex problems in the life sciences 
+
+Who you are:
+
+You have an MS/BS in Computer Science, Statistics, related field, or equivalent experience and 2+ years of industry experience in machine learning, or a PhD in Computer Science and related field and 0+ years of industry experience. 
+
+You have demonstrated success in technical capabilities, deploying machine learning models in production environments or in ML/LLM research 
+
+You have strong programming skills in Python 
+
+You have extensive experience with deep learning/LLMs. 
+
+A dynamic and resilient individual who excels in a rapidly evolving environment, taking initiative on projects and continuously learning and adapting to new challenges and opportunities. 
+
+A collaborative and open-minded team player who values constructive feedback, refrains from judgment, and fosters a positive and respectful team environment. 
+
+Strong communication skills, with the ability to effectively communicate technical concepts to both technical and non-technical audiences as well as interfacing with scientific and engineering leadership 
+
+A passion for solving complex technical problems and a commitment to staying up-to-date with the latest developments in machine learning 
+
+Experience collaborating with external scientific partners, such as academic institutions or industry research groups 
+
+An extensive track record of delivering innovative solutions in machine learning"
+"At Roche's AI for Drug Discovery (AIDD) group (Prescient Design), we are revolutionizing drug discovery with cutting-edge machine learning techniques. Prescient Design is developing cutting-edge machine learning for drug discovery, building new methods, techniques, and systems to fundamentally transform how drugs are designed. We are seeking a highly motivated Machine Learning Scientist to help drive research on Machine Learning for Drug Discovery, with a focus on Small Molecule Drug Discovery (SMDD). The successful candidate will develop, deploy, and deliver innovative ML solutions that accelerate molecular design, prediction, and hypothesis generation, working closely with computational and experimental collaborators across gRED and Roche.
+
+In this role, you will:
+
+Design, build, and apply machine learning methods to key challenges in small molecule drug discovery, including molecular property prediction, protein–ligand modeling, chemical reactivity, and synthesizability.
+
+Develop robust and scalable ML pipelines that integrate with cheminformatics, structural biology, and computational chemistry tools.
+
+Collaborate with computational chemists, medicinal chemists, structural biologists, and experimental scientists to generate testable hypotheses and guide design decisions.
+
+Curate, integrate, and leverage diverse biochemical, biophysical, and chemical datasets to power ML models and workflows.
+
+Explore and apply a range of ML approaches — from deep learning (transformers, graph neural networks) to physics-informed and hybrid methods — for impactful applications in drug discovery.
+
+Deploy models and workflows into production research environments, ensuring reproducibility and scalability.
+
+Contribute to and drive publications, present results at internal and external scientific conferences, and help make code and workflows open source.
+
+Who you are
+
+You have a PhD in the physical sciences (e.g., Chemistry, Physics, Chemical Engineering) or quantitative fields (e.g., Computer Science, Statistics, Applied Mathematics) with 0 - 3 years experience, or equivalent industry research experience.
+
+You have a strong background in scientific software development and ML engineering, with demonstrated ability to design, train, and deploy ML models.
+
+You have experience working with biochemical, chemical, or biophysical datasets; familiarity with cheminformatics and small molecule drug discovery concepts.
+
+You are fluent in Python and experience with modern ML frameworks (e.g., PyTorch, JAX, TensorFlow, Hugging Face)
+
+You have a familiarity with commonly used toolkits for chemical modeling (e.g., RDKit, OpenEye, OpenMM, Schrodinger)"

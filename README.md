@@ -1,5 +1,5 @@
 # AI-Drug-Discovery-Pathway
-
+Goal of this Pathway is to follow a self-made programmatic approach to learning Drug Discovery and its tools while building a showcase of applied projects
 
 
 
