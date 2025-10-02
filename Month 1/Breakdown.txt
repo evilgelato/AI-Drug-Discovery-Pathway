@@ -25,11 +25,109 @@ Jupyter Notebooks.
 Packages: rdkit, pandas, scikit-learn, matplotlib.
 
 Dataset: download a ChEMBL subset (e.g., 5,000–10,000 molecules with drug-likeness/activity labels).
+    pip install chembl_webresource_client
+
+Step 1: Query and filter for bioactivity data
+
+
+Initialize the client and query for activities. This example focuses on IC50 values.
+from chembl_webresource_client.new_client import new_client
+import pandas as pd
+
+# Initialize the ChEMBL client
+chembl = new_client
+
+# Query for bioactivity data with a consistent metric (e.g., IC50)
+activity_query = chembl.activity.filter(standard_type="IC50")
+
+# Convert the query to a Pandas DataFrame
+activity_df = pd.DataFrame.from_records(activity_query)
+        
+
+Filter the DataFrame. To create a high-quality dataset, perform the following filtering steps:
+Exclude assays from certain categories, like toxicity (T) or absorption, distribution, metabolism, excretion (ADME) (A), and focus on binding (B) or functional (F) assays.
+Remove entries where the standard value or canonical SMILES string is missing.
+Keep only high-confidence measurements (confidence_score >= 8).
+Standardize the units and convert the activity values (e.g., to pIC50) for consistency.
+
+# Filter for relevant assay types
+relevant_assay_types = ['B', 'F']
+filtered_df = activity_df[activity_df['assay_type'].isin(relevant_assay_types)]
+
+# Remove entries with missing activity or structure data
+filtered_df = filtered_df.dropna(subset=['standard_value', 'canonical_smiles'])
+
+# Filter for high confidence scores
+filtered_df = filtered_df[filtered_df['confidence_score'] >= 8]
 
 
 
+Step 2: Filter for drug-like properties
+Convert SMILES to RDKit molecules and calculate properties.
+from rdkit import Chem
+from rdkit.Chem import Descriptors
+
+# Create RDKit molecule objects from SMILES strings
+filtered_df['molecule'] = filtered_df['canonical_smiles'].apply(Chem.MolFromSmiles)
+
+# Remove molecules that failed to parse
+filtered_df = filtered_df.dropna(subset=['molecule'])
+
+# Calculate properties for drug-likeness filtering
+filtered_df['MW'] = filtered_df['molecule'].apply(Descriptors.MolWt)
+filtered_df['LogP'] = filtered_df['molecule'].apply(Descriptors.MolLogP)
+filtered_df['HBD'] = filtered_df['molecule'].apply(Descriptors.NumHDonors)
+filtered_df['HBA'] = filtered_df['molecule'].apply(Descriptors.NumHAcceptors)
+
+Step 3: Refine the subset size and handle redundancy
+Remove duplicate molecules: Many different assays in ChEMBL might report on the same molecule.
+
+# Drop duplicate canonical SMILES strings to get unique molecules
+unique_molecules_df = lipinski_filtered_df.drop_duplicates(subset='canonical_smiles')
 
 
+Sample the dataset to the desired size (e.g., 5,000–10,000)
+target_size = 8000
+if len(unique_molecules_df) > target_size:
+    final_subset = unique_molecules_df.sample(n=target_size, random_state=42)
+else:
+    final_subset = unique_molecules_df
+
+Step 4: Add classification labels (activity)
+
+For machine learning, you will need to convert the continuous IC50 data into classification labels (e.g., active/inactive). A common method is to set a threshold, such as 1000 nM.
+Convert IC50 values to pIC50. For improved numerical stability, it's a common practice to convert the IC50 values to their negative log scale (pIC50).
+
+import numpy as np
+
+# Ensure standard_value is numeric
+final_subset['standard_value'] = pd.to_numeric(final_subset['standard_value'])
+
+# Convert IC50 in nM to pIC50
+final_subset['pIC50'] = 9 - np.log10(final_subset['standard_value'])
+
+
+Create a binary activity label. Define a threshold to categorize molecules as "active" or "inactive". A pIC50 value of 6.0 corresponds to an IC50 of 1000 nM.
+
+threshold_pIC50 = 6.0
+final_subset['activity_label'] = final_subset['pIC50'].apply(lambda x: 1 if x >= threshold_pIC50 else 0)
+
+
+Step 5: Save the final dataset
+Export the curated dataset to a CSV file for further use in machine learning workflows. 
+
+# Select the columns you want to export
+output_columns = ['canonical_smiles', 'activity_label', 'pIC50', 'MW', 'LogP']
+final_subset[output_columns].to_csv('chembl_subset_drug_like.csv', index=False)
+
+
+Resulting dataset characteristics
+This process yields a dataset with the following properties, making it ideal for machine learning:
+Size: Approximately 5,000–10,000 unique molecules.
+Molecular Data: Canonical SMILES strings for each molecule.
+Labels: Binary activity labels (active/inactive) and continuous pIC50 values for QSAR tasks.
+Drug-likeness: Molecules filtered to obey Lipinski's Rule of Five, ensuring a focus on drug-like chemical space.
+High Confidence: Entries are selected based on high confidence scores from manually curated assays. 
 
 
 Step 2: Cheminformatics Foundations (Week 2)
