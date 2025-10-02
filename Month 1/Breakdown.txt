@@ -15,13 +15,13 @@ Step 1: Learn the Basics (Week 1)
 AI for Medicine Specialization (Coursera, DeepLearning.AI) → pick the first course only: AI for Medical Diagnosis. (~10 hrs).
 
 You’ll learn about data preprocessing, model evaluation, and interpretability in a medical context.
-
+123
 Install Tools:
 
 Python (Anaconda recommended).
-
+asd
 Jupyter Notebooks.
-
+ as
 Packages: rdkit, pandas, scikit-learn, matplotlib.
 
 Dataset: download a ChEMBL subset (e.g., 5,000–10,000 molecules with drug-likeness/activity labels).
