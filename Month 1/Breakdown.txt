@@ -78,6 +78,11 @@ README (explain drug-likeness concept, project steps, and results).
 
 Requirements.txt.
 
+
+
+
+
+
 Write a short LinkedIn post:
 
 “I’ve just completed my first cheminformatics + AI project: predicting drug-likeness using molecular descriptors from ChEMBL and a machine learning classifier. Excited to keep bridging chemistry and AI for drug discovery 🚀”
