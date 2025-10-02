@@ -16,6 +16,8 @@ AI for Medicine Specialization (Coursera, DeepLearning.AI) → pick the first co
 
 You’ll learn about data preprocessing, model evaluation, and interpretability in a medical context.
 
+
+
 Install Tools:
 
 Python (Anaconda recommended).
@@ -26,6 +28,8 @@ Packages: rdkit, pandas, scikit-learn, matplotlib.
 
 Dataset: download a ChEMBL subset (e.g., 5,000–10,000 molecules with drug-likeness/activity labels).
     pip install chembl_webresource_client
+
+STEPS FOR DATASET
 
 Step 1: Query and filter for bioactivity data
 
